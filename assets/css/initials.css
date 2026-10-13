@@ -1,0 +1,9 @@
+/* Avatares tipográficos: nenhuma foto de pessoa é necessária para identificar usuários. */
+.initial-avatar{display:inline-grid;place-items:center;flex:0 0 auto;width:44px;height:44px;border-radius:50%;color:#fff;background:linear-gradient(135deg,#bb626d,#8f4653);font-size:1rem;font-weight:900;line-height:1;letter-spacing:.02em;box-shadow:0 5px 14px rgba(143,70,83,.2);font-family:inherit;text-transform:uppercase}
+.initial-avatar.profile-avatar{width:100%;height:100%;font-size:1.6rem;background:linear-gradient(135deg,#bb626d,#647b57);box-shadow:none}
+.initial-avatar.avatar-img{width:100%;height:100%;font-size:2.25rem;background:linear-gradient(135deg,#bb626d,#647b57);box-shadow:none}
+.initial-avatar.user-avatar{width:58px;height:58px;font-size:1.25rem}
+.initial-avatar.comment-avatar{width:30px;height:30px;font-size:.75rem;box-shadow:none}
+.post-avatar .initial-avatar{width:48px;height:48px}.comment-item>.initial-avatar{width:32px;height:32px;font-size:.7rem;box-shadow:none}
+.community-user>.initial-avatar{width:42px;height:42px}.comment-author>.initial-avatar{margin-right:9px}
+@media(max-width:680px){.post-avatar .initial-avatar{width:38px;height:38px}.initial-avatar.user-avatar{width:48px;height:48px}}

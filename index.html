@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beleza Segura</title>
+  <link rel="stylesheet" href="assets/css/Landpage.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/site-polish.css">
+<link rel="stylesheet" href="assets/css/modern.css">
+<link rel="stylesheet" href="assets/css/initials.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Menu Lateral Compartilhado -->
+    <aside id="sideMenu" class="side-menu">
+      <div class="menu-header">
+        <div class="profile-avatar-container">
+          <span class="initial-avatar profile-avatar" aria-label="Narayana Alves">N</span>
+        </div>
+        <button id="closeMenuBtn" class="close-menu-btn" aria-label="Fechar Menu">
+          <i data-lucide="chevron-left"></i>
+        </button>
+      </div>
+      <h2 class="profile-name">Narayana Alves</h2>
+      <nav class="menu-nav">
+        <a href="index.html" class="menu-item"><i data-lucide="home"></i><span>Início</span></a>
+        <a href="verificador.html" class="menu-item"><i data-lucide="shield-check"></i><span>Verificador</span></a>
+        <a href="comunidade.html" class="menu-item"><i data-lucide="users"></i><span>Comunidade</span></a>
+        <a href="perfil.html" class="menu-item"><i data-lucide="user"></i><span>Perfil</span></a>
+        <a href="login.html" class="menu-item menu-item-logout" aria-label="Sair da conta"><i data-lucide="log-out"></i><span>Sair</span></a>
+      </nav>
+    </aside>
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Conteúdo Principal -->
+    <header class="top-bar fade-in-down">
+  <div class="top-bar-left">
+    <button id="openMenuBtn" class="icon-btn" aria-label="Abrir Menu">
+      <i data-lucide="menu"></i>
+    </button>
+    <div class="logo">
+      <img src="assets/images/Logo.png" alt="Logo Beleza Segura" width="38" height="38" style="object-fit: contain;">
+      <span class="logo-text">Beleza Segura</span>
+    </div>
+  </div>
+
+  <div class="search-container">
+    <i data-lucide="search" class="search-icon"></i>
+    <input type="text" placeholder="Encontre maquiagens, roupas e mais..." class="search-input">
+  </div>
+
+  <div class="top-bar-right">
+    <nav class="web-nav">
+      <a href="index.html" class="nav-item active" aria-label="Início" title="Início">
+        <span class="nav-icon"><i data-lucide="shopping-bag"></i></span>
+        <span class="nav-label">Início</span>
+      </a>
+      <a href="verificador.html" class="nav-item" aria-label="Verificador" title="Verificador">
+        <span class="nav-icon"><i data-lucide="shield-check"></i></span>
+        <span class="nav-label">Verificador</span>
+      </a>
+      <a href="comunidade.html" class="nav-item" aria-label="Comunidade" title="Comunidade">
+        <span class="nav-icon"><i data-lucide="users"></i></span>
+        <span class="nav-label">Comunidade</span>
+      </a>
+      <a href="perfil.html" class="nav-item" aria-label="Perfil" title="Perfil">
+        <span class="nav-icon"><i data-lucide="user"></i></span>
+        <span class="nav-label">Perfil</span>
+      </a>
+    </nav>
+  </div>
+</header>
+<main class="main-content">
+      
+      
+
+      <!-- Banners principais: 1270 x 372 -->
+<section class="banner-section-full" aria-label="Destaques Beleza Segura"><div class="carousel-container-full"><div class="carousel-track-full" id="carouselTrack"><div class="banner-card-full"><img src="assets/images/hero-1.png" alt="Destaque Beleza Segura 1" class="banner-img-full"></div><div class="banner-card-full"><img src="assets/images/hero-2.png" alt="Destaque Beleza Segura 2" class="banner-img-full"></div><div class="banner-card-full"><img src="assets/images/hero-3.png" alt="Destaque Beleza Segura 3" class="banner-img-full"></div></div><button class="carousel-arrow prev" id="carouselPrev" aria-label="Banner anterior"><i data-lucide="chevron-left"></i></button><button class="carousel-arrow next" id="carouselNext" aria-label="Próximo banner"><i data-lucide="chevron-right"></i></button><div class="carousel-dots" id="carouselDots"><span class="dot active" data-index="0"></span><span class="dot" data-index="1"></span><span class="dot" data-index="2"></span></div></div></section>
+      <!-- Categorias Dinâmicas -->
+      <section class="categories-section fade-in-up" style="animation-delay: 0.2s;" aria-label="Categorias de produtos">
+        <div class="category-item active" data-category="all"><div class="category-icon"><i data-lucide="grid"></i></div><span class="category-label">Todos</span></div>
+        <div class="category-item" data-category="maquiagem"><div class="category-icon"><i data-lucide="sparkles"></i></div><span class="category-label">Maquiagem</span></div>
+        <div class="category-item" data-category="skin-care"><div class="category-icon"><i data-lucide="pipette"></i></div><span class="category-label">Skin Care</span></div>
+      </section>
+      <!-- Produtos em Carrossel -->
+      <!-- Produtos reais, com links diretos para as páginas oficiais -->
+<section class="products-section fade-in-up" style="animation-delay: 0.3s;" aria-labelledby="sectionTitle"><div class="section-heading-row"><div><span class="eyebrow">CURADORIA COM LINKS OFICIAIS</span><h2 class="section-title" id="sectionTitle">Produtos reais e verificados</h2></div><span class="product-count" id="productCount">5 produtos</span></div><div class="products-carousel product-grid" id="productGrid">
+<article class="product-card" data-category="maquiagem" data-url="https://www.boticario.com.br/batom-cremoso-nude-malva-make-b-36g/"><div class="product-img-wrapper"><img src="assets/images/product-boticario-nude-malva.webp" alt="Batom Cremoso Nude Malva Make B. O Boticário" class="product-img"><span class="official-mark">O Boticário</span><button class="favorite-btn" type="button" aria-label="Favoritar produto"><i data-lucide="heart"></i></button></div><div class="product-info"><span class="product-brand">O Boticário · Make B.</span><h3 class="product-title">Batom Cremoso Nude Malva 3,6g</h3><div class="badge-row"><span class="trust-badge">Canal oficial <i data-lucide="badge-check" class="badge-icon"></i></span></div><div class="price-row"><span class="price">R$ 64,90</span><a class="product-buy-link" href="https://www.boticario.com.br/batom-cremoso-nude-malva-make-b-36g/" target="_blank" rel="noopener">Ver produto <i data-lucide="arrow-up-right"></i></a></div></div></article>
+<article class="product-card" data-category="maquiagem" data-url="https://www.boticario.com.br/batom-vinho-true-plum-make-b-easy-mate-39g/"><div class="product-img-wrapper"><img src="assets/images/product-boticario-makeb.webp" alt="Batom Vinho True Plum Make B. O Boticário" class="product-img"><span class="official-mark">O Boticário</span><button class="favorite-btn" type="button" aria-label="Favoritar produto"><i data-lucide="heart"></i></button></div><div class="product-info"><span class="product-brand">O Boticário · Make B.</span><h3 class="product-title">Batom Vinho True Plum Easy Mate</h3><div class="badge-row"><span class="trust-badge">Canal oficial <i data-lucide="badge-check" class="badge-icon"></i></span></div><div class="price-row"><span class="price">R$ 64,90</span><a class="product-buy-link" href="https://www.boticario.com.br/batom-vinho-true-plum-make-b-easy-mate-39g/" target="_blank" rel="noopener">Ver produto <i data-lucide="arrow-up-right"></i></a></div></div></article>
+<article class="product-card" data-category="maquiagem" data-url="https://www.natura.com.br/p/batom-multimix-cremoso-faces/NATBRA-116204"><div class="product-img-wrapper"><img src="assets/images/product-natura-multimix-official.jpg" alt="Batom Multimix Cremoso Faces Natura" class="product-img"><span class="official-mark">Natura</span><button class="favorite-btn" type="button" aria-label="Favoritar produto"><i data-lucide="heart"></i></button></div><div class="product-info"><span class="product-brand">Natura · Faces</span><h3 class="product-title">Batom Multimix Cremoso Faces</h3><div class="badge-row"><span class="trust-badge">Canal oficial <i data-lucide="badge-check" class="badge-icon"></i></span></div><div class="price-row"><span class="price">R$ 17,92</span><a class="product-buy-link" href="https://www.natura.com.br/p/batom-multimix-cremoso-faces/NATBRA-116204" target="_blank" rel="noopener">Ver produto <i data-lucide="arrow-up-right"></i></a></div></div></article>
+<article class="product-card" data-category="maquiagem" data-url="https://www.sephora.com.br/blush-liquido-rare-beauty-soft-pinch-liquid-blush-18862-18862.html"><div class="product-img-wrapper"><img src="assets/images/product-rare-official.jpg" alt="Blush Líquido Rare Beauty Soft Pinch" class="product-img"><span class="official-mark">Sephora</span><button class="favorite-btn" type="button" aria-label="Favoritar produto"><i data-lucide="heart"></i></button></div><div class="product-info"><span class="product-brand">Rare Beauty · Sephora</span><h3 class="product-title">Blush Líquido Soft Pinch</h3><div class="badge-row"><span class="trust-badge">Canal oficial <i data-lucide="badge-check" class="badge-icon"></i></span></div><div class="price-row"><span class="price">R$ 189,00</span><a class="product-buy-link" href="https://www.sephora.com.br/blush-liquido-rare-beauty-soft-pinch-liquid-blush-18862-18862.html" target="_blank" rel="noopener">Ver produto <i data-lucide="arrow-up-right"></i></a></div></div></article>
+<article class="product-card" data-category="skin-care" data-url="https://www.natura.com.br/p/gel-de-limpeza-para-controle-de-oleosidade-faces-120-g/NATBRA-166352"><div class="product-img-wrapper"><img src="assets/images/product-natura-gel-official.jpg" alt="Gel de Limpeza para Controle de Oleosidade Faces Natura" class="product-img"><span class="official-mark">Natura</span><button class="favorite-btn" type="button" aria-label="Favoritar produto"><i data-lucide="heart"></i></button></div><div class="product-info"><span class="product-brand">Natura · Faces</span><h3 class="product-title">Gel de Limpeza para Oleosidade</h3><div class="badge-row"><span class="trust-badge">Canal oficial <i data-lucide="badge-check" class="badge-icon"></i></span></div><div class="price-row"><span class="price">R$ 26,94</span><a class="product-buy-link" href="https://www.natura.com.br/p/gel-de-limpeza-para-controle-de-oleosidade-faces-120-g/NATBRA-166352" target="_blank" rel="noopener">Ver produto <i data-lucide="arrow-up-right"></i></a></div></div></article>
+</div></section>
+      <!-- Lojas Parceiras em carrossel contínuo -->
+      <section class="partners-section fade-in-up" style="animation-delay: 0.35s;">
+        <h2 class="section-title">Marcas Parceiras 🤝</h2>
+        <div class="partners-marquee" aria-label="Marcas parceiras">
+          <div class="partners-track">
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-wella.png" alt="Wella" class="partner-logo"></div><span>Wella</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-loreal.png" alt="L'Oréal Paris" class="partner-logo"></div><span>L'Oréal Paris</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-saffron.png" alt="Saffron" class="partner-logo"></div><span>Saffron</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-body-shop.png" alt="The Body Shop" class="partner-logo"></div><span>The Body Shop</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-dermacos.png" alt="Dermacos" class="partner-logo"></div><span>Dermacos</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-luscious.png" alt="Luscious Cosmetics" class="partner-logo"></div><span>Luscious Cosmetics</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-garnier.png" alt="Garnier" class="partner-logo"></div><span>Garnier</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-lancome.png" alt="Lancôme" class="partner-logo"></div><span>Lancôme</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-maybelline.png" alt="Maybelline" class="partner-logo"></div><span>Maybelline</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-pgm.png" alt="PGM" class="partner-logo"></div><span>PGM</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-kryolan.png" alt="Kryolan" class="partner-logo"></div><span>Kryolan</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-braun.png" alt="Braun" class="partner-logo"></div><span>Braun</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-clinique.png" alt="Clinique" class="partner-logo"></div><span>Clinique</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-diana.png" alt="Diana of London" class="partner-logo"></div><span>Diana of London</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-flormar.png" alt="Flormar" class="partner-logo"></div><span>Flormar</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-versace.png" alt="Versace" class="partner-logo"></div><span>Versace</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-mac.png" alt="MAC" class="partner-logo"></div><span>MAC</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-janssen.png" alt="Janssen" class="partner-logo"></div><span>Janssen</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-keune.png" alt="Keune" class="partner-logo"></div><span>Keune</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-ifb.png" alt="IFB" class="partner-logo"></div><span>IFB</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-dior.png" alt="Christian Dior" class="partner-logo"></div><span>Christian Dior</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-triumph.png" alt="Triumph" class="partner-logo"></div><span>Triumph</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-g3.png" alt="G3" class="partner-logo"></div><span>G3</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-golden-rose.png" alt="Golden Rose" class="partner-logo"></div><span>Golden Rose</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-wella.png" alt="Wella" class="partner-logo"></div><span>Wella</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-loreal.png" alt="L'Oréal Paris" class="partner-logo"></div><span>L'Oréal Paris</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-saffron.png" alt="Saffron" class="partner-logo"></div><span>Saffron</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-body-shop.png" alt="The Body Shop" class="partner-logo"></div><span>The Body Shop</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-dermacos.png" alt="Dermacos" class="partner-logo"></div><span>Dermacos</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-luscious.png" alt="Luscious Cosmetics" class="partner-logo"></div><span>Luscious Cosmetics</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-garnier.png" alt="Garnier" class="partner-logo"></div><span>Garnier</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-lancome.png" alt="Lancôme" class="partner-logo"></div><span>Lancôme</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-maybelline.png" alt="Maybelline" class="partner-logo"></div><span>Maybelline</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-pgm.png" alt="PGM" class="partner-logo"></div><span>PGM</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-kryolan.png" alt="Kryolan" class="partner-logo"></div><span>Kryolan</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-braun.png" alt="Braun" class="partner-logo"></div><span>Braun</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-clinique.png" alt="Clinique" class="partner-logo"></div><span>Clinique</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-diana.png" alt="Diana of London" class="partner-logo"></div><span>Diana of London</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-flormar.png" alt="Flormar" class="partner-logo"></div><span>Flormar</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-versace.png" alt="Versace" class="partner-logo"></div><span>Versace</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-mac.png" alt="MAC" class="partner-logo"></div><span>MAC</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-janssen.png" alt="Janssen" class="partner-logo"></div><span>Janssen</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-keune.png" alt="Keune" class="partner-logo"></div><span>Keune</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-ifb.png" alt="IFB" class="partner-logo"></div><span>IFB</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-dior.png" alt="Christian Dior" class="partner-logo"></div><span>Christian Dior</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-triumph.png" alt="Triumph" class="partner-logo"></div><span>Triumph</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-g3.png" alt="G3" class="partner-logo"></div><span>G3</span></div>
+            <div class="partner-card"><div class="partner-logo-wrapper"><img src="assets/images/brand-golden-rose.png" alt="Golden Rose" class="partner-logo"></div><span>Golden Rose</span></div>
+          </div>
+        </div>
+      </section>
+      <!-- Comunidade Redesenhada -->
+      <section class="community-section fade-in-up" style="animation-delay: 0.4s;">
+        <h2 class="section-title">Vozes da nossa comunidade 💬</h2>
+        <div class="community-grid">
+          
+          <div class="community-card">
+            <span class="community-pin pin-dica">Dica</span>
+            <div class="community-user">
+              <span class="initial-avatar" aria-label="Juliana M">J</span>
+              <div>
+                <h4>Juliana M.</h4>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p>"Misturar algumas gotas de iluminador na base deixa a pele com um glow incrível de verão. Testem! O resultado é de salão."</p>
+          </div>
+
+          <div class="community-card">
+            <span class="community-pin pin-alerta">Alerta</span>
+            <div class="community-user">
+              <span class="initial-avatar" aria-label="Juliana M">J</span>
+              <div>
+                <h4>Carla T.</h4>
+                <div class="stars" style="color:#d1d5db;">★★★★★</div>
+              </div>
+            </div>
+            <p>"Atenção com a loja X vendendo a paleta Nude Eyes muito barata. Comprei e é falsificada, a pigmentação não existe e me deu alergia!"</p>
+          </div>
+
+          <div class="community-card">
+            <span class="community-pin pin-feedback">Feedback</span>
+            <div class="community-user">
+              <span class="initial-avatar" aria-label="Juliana M">J</span>
+              <div>
+                <h4>Roberta F.</h4>
+                <div class="stars">★★★★☆</div>
+              </div>
+            </div>
+            <p>"O sérum de ácido hialurônico que a Beleza Segura indicou secou super rápido na minha pele e não deixou pegajoso. Comprarei novamente!"</p>
+          </div>
+          
+        </div>
+      </section>
+      <!-- Importância de Golpes Digitais -->
+      <section class="security-section fade-in-up" style="animation-delay: 0.5s;">
+        <div class="security-content">
+          <div class="security-icon-wrapper">
+            <i data-lucide="shield-alert"></i>
+          </div>
+          <h2>Proteja-se Contra Golpes Digitais</h2>
+          <p>A segurança é o primeiro passo para uma rotina de beleza perfeita. Compras online trazem praticidade, mas o risco de sites clonados e cosméticos falsificados é real e pode prejudicar sua pele e seu bolso.</p>
+        </div>
+      <a href="verificador.html" class="hero-verifier-link"><span>Verificar uma loja agora</span><i data-lucide="arrow-right"></i></a>
+      </section>
+
+    <div class="product-modal" role="dialog" aria-modal="true" aria-label="Detalhes do produto"><div class="product-modal-card"><button class="product-modal-close" aria-label="Fechar">×</button><div class="product-modal-grid"><img data-modal-image alt="Produto selecionado"><div><span class="product-modal-kicker">Produto com análise de confiança</span><h2 data-modal-title>Produto verificado</h2><p>Veja os sinais antes de sair da Beleza Segura: domínio, empresa, avaliações e histórico.</p><span class="modal-score">Beleza Segura Score: 92/100</span><p><strong data-modal-price>Consulte o preço</strong></p><div class="modal-checks"><span>Domínio conferido</span><span>Canal oficial</span><span>Avaliações verificadas</span><span>Sem alerta crítico</span></div><a class="modal-cta" data-modal-link href="#" target="_blank" rel="noopener">Ir ao canal oficial</a></div></div></div></div></main>
+  </div>
+
+  <script>lucide.createIcons();</script>
+  <script src="assets/js/Landpage.js"></script>
+  <script src="assets/js/shared-ui.js"></script>
+</body>
+</html>
